@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <ImageView
+        android:id="@+id/img_anh"
+        android:layout_width="400dp"
+        android:layout_height="270dp"
+        android:layout_marginTop="10dp"
+        android:src="@drawable/dr"/>
+
+    <EditText
+        android:id="@+id/et_themTen"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:hint="Nhập Tên"/>
+
+    <EditText
+        android:id="@+id/et_themTheloai"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:hint="Nhập Thể Loại"/>
+
+    <EditText
+        android:id="@+id/et_themMota"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:hint="Nhập Mô Tả"/>
+
+    <EditText
+        android:id="@+id/et_themGio"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:hint="Nhập Giờ Chiếu"/>
+
+    <EditText
+        android:id="@+id/et_themGia"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:hint="Nhập Giá Vé"/>
+
+    <Button
+        android:id="@+id/btLuuThem"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Lưu"/>
+    <Button
+        android:id="@+id/btHuyThem"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Hủy"/>
+</LinearLayout>
